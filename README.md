@@ -1,7 +1,7 @@
 # SH-!T
 Python wrapper that runs a full TCP nmap scan, hides the raw output, and turns the result into a readable summary plus suggested follow-up commands.
 
-`v0.1` by roy
+`v0.3` by roy
 
 Authorized testing only. Scan hosts you own or have written permission to test.
 
