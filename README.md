@@ -60,7 +60,9 @@ Checked items are done in v0.1.
 
 ### Next
 
-- [ ] Change the built-in suggested commands
-- [ ] Run the commands already in the suggestion list without asking the user
-- [ ] While a scan is running, press a key to send the program to the background
-- [ ] Remove duplicate suggested commands and clean up the built-in command list
+- [ ] Change the built-in suggested commands, drop duplicates, and keep only the next command worth running per port
+- [ ] Move that list into `templates.yaml` so it can change without touching scan logic
+- [ ] Run those commands without asking, and keep the menu as an option you can turn off
+- [ ] Skip loud commands (login brute force, relay checks) unless `--unsafe` is set
+- [ ] Press a key during a scan to send the program to the background and keep progress in a log file
+- [ ] Skip hosts that already have an nmap XML, append to `command.txt`, and rescan only failed hosts
