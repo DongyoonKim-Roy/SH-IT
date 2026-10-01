@@ -39,7 +39,7 @@ Wordlists referenced by the web templates:
 
 ```bash
 python3 auto_enum.py targets.txt
-
+```
 
 ## TODO
 
