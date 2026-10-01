@@ -60,22 +60,7 @@ Checked items are done in v0.1.
 
 ### Next
 
-- [ ] Add a `.gitignore` for `nmap/`, `command.txt`, `next_commands.txt`, `report.md`
-- [ ] Add `--no-menu` so a scan can finish without prompts
-- [ ] Add `--skip-existing` so a rerun does not rescan hosts that already have XML
-- [ ] Move command templates out of the script into `templates.yaml` (or `.txt`) so they can be edited without touching code
-- [ ] Make the wordlist path a flag, not a hardcoded Kali path
-- [ ] Accept hostnames and CIDR in `targets.txt`, not only single IPs
-- [ ] Add a timeout and a clear message when nmap is still on the first host with no stats yet
-- [ ] Stop using `shell=True` for follow-up commands
-- [ ] Confirm before `a` (run all), since some groups fire several loud tools
-- [ ] Add a sample `nmap/*.xml` fixture and a parser test that does not need a live host
-- [ ] Note the scan start time and elapsed time in `report.md`
-
-### Later
-
-- [ ] Optional UDP top-ports pass (`-sU --top-ports 20`) behind a flag
-- [ ] Optional `-O` OS detection behind a flag (needs root)
-- [ ] HTML report next to `report.md`
-- [ ] Per-port notes field so a manual finding can be appended to the report
-- [ ] Color off when stdout is not a TTY
+- [ ] Change the built-in suggested commands
+- [ ] Run the commands already in the suggestion list without asking the user
+- [ ] While a scan is running, press a key to send the program to the background
+- [ ] Remove duplicate suggested commands and clean up the built-in command list
