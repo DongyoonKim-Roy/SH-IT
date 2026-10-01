@@ -43,7 +43,7 @@ python3 auto_enum.py targets.txt
 
 ## TODO
 
-Checked items are done in v0.1.
+Checked items are done in v0.3.
 
 ### Done
 
